@@ -1,16 +1,23 @@
 #block1 {
   color: white;
   text-align: center;
-  background-color: lightblue;
+  background-color: #609497;
   border-style: solid solid solid solid;
-  border-color: blue;
+  border-color: #4D797B;
 }
 
 #aboutme {
-  color: black;
-  text-align: center;
-  text-indent: 30px;
-  background-color: lightblue;
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin:30px;
+  margin-right:30px;
+  margin-bottom: 70px;
+  background-color: #609497;
+  line-height:2;
 }
 #block2 {
   color: black;
