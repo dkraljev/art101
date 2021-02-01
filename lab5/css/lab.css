@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-size: 30px;
-  font-family: serif;
+  font-family: vag-rundschrift-d;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -11,13 +11,13 @@ h2 {
   text-align: center;
   font-size: 25px;
   color: white;
-  font-family: serif;
+  font-family: vag-rundschrift-d;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 h3 {
   text-align: center;
-  font-family: serif;
+  font-family: vag-rundschrift-d;
   font-size: 25px;
 }
 
@@ -53,5 +53,5 @@ img {
   text-align: center;
   background-color: black;
   min-height: 600px;
-  font-family: serif;
+  font-family: vag-rundschrift-d;
 }
