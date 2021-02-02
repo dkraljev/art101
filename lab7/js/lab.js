@@ -12,12 +12,12 @@ myMainRide = {
   model: "Civic",
   color: "Black",
   year: 2019,
-  age: function() {
-    return (2021 - this.year);
+  age: function(){
+    return 2021 - age;
   }
 
 }
 
 //outputt
-document.writeln("Kinds of Transportation I have Access to: ", myTransport, "</br>")
-document.writeln("My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t'), "</pre>")
+document.writeLn("Kinds of Transportation I have Access to: ", MyTransport, "</br>")
+document.writeLn("My Main Ride: ", JSON.stringify(myMainRide, null, '\t'), "</br>")
