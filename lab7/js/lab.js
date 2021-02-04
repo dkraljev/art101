@@ -16,7 +16,7 @@ function sortName(userName) {
   var arraySort =strArray.sort();
   console.log("arraySort:", arraySort);
   //join
-  var strSort =arraySort.sort();
+  var strSort =arraySort.join();
   console.log("strSort:", strSort);
   return strSort;
 }
