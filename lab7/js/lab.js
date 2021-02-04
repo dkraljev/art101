@@ -7,13 +7,24 @@
 //Function Define
 //split string, sort it, rejoin it
 function sortName(userName) {
-  var arrayName = userName.split('').sort().join('');
-  return arrayName;
-
+  var userName = window.prompt("Which name do you want me to fix?");
+  console.log("userName=", userName)
+  //split
+  var strArray = userName.split('');
+  console.log("strArray:", strArray);
+  //sorted
+  var arraySort =strArray.sort();
+  console.log("arraySort:", arraySort);
+  //join
+  var strSort =arraySort.sort();
+  console.log("strSort:", strSort);
+  return strSort;
 }
 
-var name = prompt("What is your name?");
-console.log("Old name:", name);
- // Output
- document.writeln("Your name sorted is :",
-sortName(name), "</br>");
+//input
+function tryAgain(){
+  window.location.reload();
+}
+
+//Output
+document.writeln("Fixed!!! Your new name is", sortName(), "</br>");
