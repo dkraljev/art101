@@ -53,4 +53,6 @@ setTimeout(function() {
 
 function openConsole() {
   window.location.reload();
+
 }
+document.writeln("Check the Console!!! </br>");
